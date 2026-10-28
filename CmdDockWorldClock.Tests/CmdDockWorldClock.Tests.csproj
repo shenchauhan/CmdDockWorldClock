@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\CmdDockWorldClock\CityCatalog.cs" Link="CityCatalog.cs" />
+    <Compile Include="..\CmdDockWorldClock\WorldClockDefinition.cs" Link="WorldClockDefinition.cs" />
+    <Compile Include="..\CmdDockWorldClock\WorldClockFormatter.cs" Link="WorldClockFormatter.cs" />
+  </ItemGroup>
+
+</Project>

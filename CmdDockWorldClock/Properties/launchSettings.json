@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "CmdDockWorldClock (Package)": {
+      "commandName": "MsixPackage",
+      "doNotLaunchApp": true
+    },
+    "CmdDockWorldClock (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
+
