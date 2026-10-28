@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+
+PackageIdentifier: shenchauhan.CmdDockWorldClock
+PackageVersion: 0.2.1.0
+PackageLocale: en-US
+Publisher: shenchauhan
+PublisherUrl: https://github.com/shenchauhan
+PublisherSupportUrl: https://github.com/shenchauhan/CmdDockWorldClock/issues
+PackageName: World Clock
+PackageUrl: https://github.com/shenchauhan/CmdDockWorldClock
+License: UNLICENSED
+ShortDescription: Live world clocks for the PowerToys Command Palette Dock.
+Description: A PowerToys Command Palette extension that adds one Dock band with up to five live clocks. Each city is chosen in the extension settings (defaults are Seattle, London, and Tokyo). Times use the Windows regional short-time format, update at the start of each minute, and daylight saving is handled by Windows time-zone data. Selecting a clock copies its current local date and time. Requires PowerToys with Command Palette Dock support and the Command Palette Extension SDK 0.11 or later.
+ReleaseNotes: Initial package (self-signed test build).
+Tags:
+  - command-palette
+  - world-clock
+  - powerToys
+  - dock
+  - clock
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0
